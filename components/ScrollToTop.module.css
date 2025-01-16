@@ -1,0 +1,13 @@
+.sectionHeader {
+  position: absolute;
+  bottom: 0;
+  background-color: purple;
+  width: 100%;
+  text-align: center;
+}
+
+.contentWrapper {
+  height: 4000px;
+  background-color: green;
+  position: relative;
+}
