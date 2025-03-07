@@ -6,7 +6,7 @@ const ScrollToTop: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const observer = new MutationObserver((mutations) => {
+    const observer = new MutationObserver(() => {
       if (containerRef.current?.offsetHeight) {
         window.scrollTo(0, document.body.scrollHeight);
         observer.disconnect();
