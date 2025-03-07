@@ -25,7 +25,7 @@ const ScrollToTop: React.FC = () => {
     <div>
       <div className={styles.contentWrapper} ref={containerRef}>
         <div className={styles.sectionHeader}>
-          <h1>Scroll Up!</h1>
+          <h1>Scroll Up</h1>
           <p>^^^^^^</p>
         </div>
       </div>
